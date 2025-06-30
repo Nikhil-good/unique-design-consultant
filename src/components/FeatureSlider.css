@@ -1,0 +1,120 @@
+.feature-slider-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f7f9fc, #eef3fb);
+  text-align: center;
+  position: relative;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: #1a1a1a;
+}
+
+.section-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.section-icon {
+  font-size: 32px;
+  color: #fca311;
+}
+
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 20px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-card {
+  min-width: 260px;
+  max-width: 260px;
+  height: 300px;
+  border-radius: 16px;
+  color: white;
+  padding: 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+.slider-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.slider-card p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.slider-card .logo {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.slider-btn svg {
+  font-size: 16px;
+  color: #333;
+}
+
+.slider-btn.left {
+  left: 10px;
+}
+
+.slider-btn.right {
+  right: 10px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(-50%) translateX(0); }
+  50% { transform: translateY(-50%) translateX(-4px); }
+}

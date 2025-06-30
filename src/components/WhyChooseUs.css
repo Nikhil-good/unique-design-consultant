@@ -1,0 +1,132 @@
+.why-choose-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff3ec, #ffe9e0);
+  text-align: center;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(247, 127, 0, 0.2);
+}
+
+.icon-container {
+  z-index: 2;
+  position: relative;
+  animation: bounce 2s infinite;
+}
+
+.icon-animated {
+  color: #f77f00;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 16px 0 8px;
+  color: #1f1f1f;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.svg-blob {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, #fca311 20%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.15;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* CTA Button */
+.btn-primary {
+  background-color: #f77f00;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ff9f1c;
+  color: #fff;
+}
+
+/* 🌙 Dark mode */
+@media (prefers-color-scheme: dark) {
+  .why-choose-section {
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  }
+
+  .feature-card {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+  }
+
+  .card-title {
+    color: #fff;
+  }
+
+  .card-text {
+    color: #ccc;
+  }
+
+  .svg-blob {
+    background: radial-gradient(circle, #f77f00 20%, transparent 70%);
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    padding: 20px;
+  }
+
+  .cards-container .col-md-4 {
+    max-width: 100%;
+  }
+}

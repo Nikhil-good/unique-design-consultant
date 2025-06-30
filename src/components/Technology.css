@@ -1,0 +1,256 @@
+.floating-logo-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(135deg, #f4f8fb, #ffffff);
+  overflow: hidden;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+  z-index: 10;
+  position: relative;
+}
+
+/* LOGOS */
+.floating-logo {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  animation: floatAround ease-in-out infinite;
+  z-index: 2;
+}
+
+.floating-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Logo Animation */
+@keyframes floatAround {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(20px, -30px);
+  }
+  50% {
+    transform: translate(0, -50px);
+  }
+  75% {
+    transform: translate(-20px, -25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* COLORFUL BACKGROUND BUBBLES */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+  z-index: 0;
+  animation: bubbleFloat linear infinite;
+}
+
+.bubble:nth-child(1) {
+  width: 150px;
+  height: 150px;
+  background: #ff6ec7;
+  left: 10%;
+  top: 80%;
+  animation-duration: 30s;
+}
+.bubble:nth-child(2) {
+  width: 120px;
+  height: 120px;
+  background: #6ec6ff;
+  left: 40%;
+  top: 100%;
+  animation-duration: 45s;
+}
+.bubble:nth-child(3) {
+  width: 180px;
+  height: 180px;
+  background: #9fffcb;
+  left: 70%;
+  top: 90%;
+  animation-duration: 35s;
+}
+.bubble:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  background: #facc15;
+  left: 85%;
+  top: 70%;
+  animation-duration: 50s;
+}
+.bubble:nth-child(5) {
+  width: 90px;
+  height: 90px;
+  background: #c084fc;
+  left: 25%;
+  top: 95%;
+  animation-duration: 40s;
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-300px) scale(1.1);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translateY(-600px) scale(1);
+    opacity: 0;
+  }
+}
+
+
+.floating-logo-wrapper {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(135deg, #f4f8fb, #ffffff);
+  overflow: hidden;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+.floating-logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: floatAround ease-in-out infinite;
+  z-index: 2;
+}
+
+.floating-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* Bouncing animation */
+@keyframes floatAround {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* BUBBLES */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+  z-index: 0;
+  animation: bubbleFloat linear infinite;
+}
+
+.pink {
+  width: 150px;
+  height: 150px;
+  background: #ff6ec7;
+  left: 10%;
+  top: 80%;
+  animation-duration: 30s;
+}
+.blue {
+  width: 120px;
+  height: 120px;
+  background: #6ec6ff;
+  left: 40%;
+  top: 100%;
+  animation-duration: 45s;
+}
+.green {
+  width: 180px;
+  height: 180px;
+  background: #9fffcb;
+  left: 70%;
+  top: 90%;
+  animation-duration: 35s;
+}
+.yellow {
+  width: 100px;
+  height: 100px;
+  background: #facc15;
+  left: 85%;
+  top: 70%;
+  animation-duration: 50s;
+}
+.purple {
+  width: 90px;
+  height: 90px;
+  background: #c084fc;
+  left: 25%;
+  top: 95%;
+  animation-duration: 40s;
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-300px) scale(1.1);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translateY(-600px) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Dark Mode */
+body.dark .floating-logo-wrapper {
+  background: #111;
+}
+body.dark .section-heading {
+  color: #fff;
+}
+body.dark .floating-logo img {
+  border-color: #333;
+  background-color: #1a1a1a;
+}
+
+.industry-card .card-text {
+  white-space: nowrap;
+}

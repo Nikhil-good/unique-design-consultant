@@ -1,0 +1,243 @@
+.pricing-section {
+  text-align: center;
+  background: #f4f7fa;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pricing-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.billing-toggle {
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.billing-toggle button {
+  padding: 10px 24px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.billing-toggle .active {
+  background: #007bff;
+  color: #fff;
+}
+
+.billing-toggle .save {
+  font-size: 12px;
+  color: #ff9800;
+  margin-left: 6px;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.pricing-card {
+  width: 260px;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+
+.pricing-card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.user-info, select {
+  margin: 12px 0;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+ul {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 20px;
+  margin: 16px 0;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+.buy-btn {
+  background: currentColor;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-btn:hover {
+  filter: brightness(90%);
+}
+
+/* Plan Colors */
+.pricing-card:nth-child(1) {
+  background: #e8f0fe;
+  color: #0d47a1;
+}
+.pricing-card:nth-child(2) {
+  background: #e0f7fa;
+  color: #006064;
+}
+.pricing-card:nth-child(3) {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+.pricing-card:nth-child(4) {
+  background: #ede7f6;
+  color: #4527a0;
+}
+
+/* Most Popular Badge */
+.popular {
+  border: 2px solid #ef6c00;
+}
+.badge {
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  background: #ef6c00;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.pricing-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  width: 260px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 540px; /* Ensure enough space for content */
+}
+
+.buy-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+/* 🌙 Dark Mode Support */
+body.dark .pricing-section {
+  background: #0e1726;
+  color: #f1f1f1;
+}
+
+body.dark .pricing-section h2 {
+  color: #ffffff;
+}
+
+body.dark .pricing-card {
+  background: #1e293b;
+  border: 2px solid #334155;
+  color: #e2e8f0;
+}
+
+body.dark .pricing-card h3 {
+  color: #f8fafc;
+}
+
+body.dark .price {
+  color: #38bdf8;
+}
+
+body.dark .buy-btn {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+body.dark .buy-btn:hover {
+  background: #0ea5e9;
+}
+
+body.dark .billing-toggle {
+  border: 1px solid #334155;
+}
+
+body.dark .billing-toggle button {
+  color: #38bdf8;
+  background: none;
+}
+
+body.dark .billing-toggle .active {
+  background: #38bdf8;
+  color: #0e1726;
+}
+
+body.dark .badge {
+  background: #38bdf8;
+  color: #0e1726;
+}
+
+body.dark .user-info,
+body.dark select {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

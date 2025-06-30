@@ -1,0 +1,58 @@
+/* Dark Mode Card Enhancements */
+.service-card-dark {
+  transition: all 0.3s ease;
+  background-color: #1e1e1e !important;
+  color: #e0e0e0;
+}
+
+.service-card-dark:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.06);
+}
+
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.service-card-dark:hover .icon-hover {
+  transform: scale(1.15);
+}
+
+button.btn-outline-light:hover {
+  background-color: #ffffff10;
+  color: #fff;
+}
+
+
+/* Full-page dark background handling is done in body (App.css) */
+
+/* Card Dark Mode */
+.service-card-dark {
+  background-color: #161b22 !important;
+  color: #e6e6e6;
+  transition: all 0.3s ease;
+  border: 1px solid #30363d;
+}
+
+.service-card-dark:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.06);
+}
+
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.service-card-dark:hover .icon-hover {
+  transform: scale(1.1);
+}
+
+button.btn-outline-light {
+  border: 1px solid #8b949e;
+  color: #e6e6e6;
+}
+
+button.btn-outline-light:hover {
+  background-color: #21262d;
+  color: #fff;
+}

@@ -1,0 +1,591 @@
+/* Bitrix24CRM.css */
+
+/* ========== Shared Layout ========== */
+.service-banner {
+  background-size: cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.btn-default {
+  background-color: #f7931e;
+  border: none;
+  padding: 10px 25px;
+  margin: 5px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  background-color: #e97f00;
+  color: #fff;
+}
+
+/* ========== Tabs Styling ========== */
+.bitrix-nav-tabs .nav-link {
+  font-weight: 600;
+  color: #333;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  margin-right: 2px;
+}
+
+.bitrix-nav-tabs .nav-link.active {
+  background-color: #f7931e;
+  color: white;
+  border-color: #f7931e;
+}
+
+.bitrix24-tabs {
+  padding: 30px 15px;
+}
+
+/* ========== Section Layout ========== */
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ========== Typography ========== */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  line-height: 1.8;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #444;
+}
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+/* Responsive image formatting */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Headings within tab content */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Bullet point formatting */
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  line-height: 1.8;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Optional enhancements for tab content area */
+.tab-content {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top: none;
+  padding: 30px;
+  border-radius: 0 0 6px 6px;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* Optional: spacing between rows */
+.row + .row {
+  margin-top: 40px;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Section titles */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Bullet lists for Drive sections */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* Optional: consistent spacing between Drive rows */
+.row + .row {
+  margin-top: 40px;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Headings and lists */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* ============================== */
+/* CRM Tab Styling               */
+/* ============================== */
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* ============================== */
+/* Hero Section (Service Banner) */
+/* ============================== */
+
+.service-banner {
+  background-image: url("/assets/img/bitrix24-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px 80px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.service-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.service-banner h1,
+.service-banner h3 {
+  position: relative;
+  z-index: 2;
+}
+
+.service-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.service-banner h1 span {
+  font-weight: 700;
+  color: #007bff; /* Bitrix24 brand blue */
+}
+
+.service-banner h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 15px;
+  color: #f1f1f1;
+}
+
+.service-banner .btn {
+  margin: 15px 10px 0;
+  padding: 12px 20px;
+  font-weight: 600;
+  background-color: #f7931e;
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.service-banner .btn:hover {
+  background-color: #d97706;
+}
+
+
+/* ============================== */
+/* Social Intranet Layout        */
+/* ============================== */
+
+.social-intranet-section {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.social-intranet-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.social-intranet-section ul {
+  padding-left: 20px;
+}
+
+.social-intranet-section ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.social-intranet-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
